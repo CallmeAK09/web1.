@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+*::-webkit-scrollbar{
+    background-color: transparent;
+}
+@font-face {
+    font-family: font1;
+    src: url(Fonts/font1.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(Fonts/font2.ttf);
+}
+@font-face {
+     font-family: font3;
+    src: url(Fonts/font3.otf);
+}
+@font-face {
+    font-family: font4;
+    src: url(Fonts/font4.otf);
+}
+
+.headerdiv{
+    width: 1536px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005289;
+}
+ #image{
+    height: 65px;
+    float: left;
+    margin-bottom: 5px;
+}
+.texts{
+    width: 760px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #005289;
+    float: left;
+    margin-bottom: 5px;
+}
+.texts a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+    float: left;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px;
+}
+.texts button{
+    background-color: white;
+    color: #005289;
+    text-align: center;
+    border: none;
+    border-radius: 13px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.texts img{
+    height: 60px;
+    background-size: cover;
+    float: right;
+}
+.social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.social a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-left: 8px;
+    margin-bottom: 40px;
+    float: left;
+}
+
+#maindiv{
+    width: 1536px;
+    height: 340px;
+}
+#maindiv img{
+    width: 1536px;
+}
+#footerdiv{
+    width: 1536px;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+
+}
+#footerdiv button{
+    background-color: white;
+    float: left;
+    height: 70px;
+    width: 25%;;
+    border: 0 none;
+    border-left: 1px solid black;
+    font-size: 2.2em;
+    padding-top: 12px;
+    color: rgb(106, 105, 105);
+}
+#footerdiv button:hover{
+    color: #005289;
+}
